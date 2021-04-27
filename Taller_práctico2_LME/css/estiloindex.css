@@ -1,0 +1,46 @@
+#img-banner{
+    width: 100%;
+}
+.img-1{
+    display: block;
+    margin: auto;
+}
+.padding-1{
+    margin: 2em;
+}
+.title-1{
+    color: #590C0C;
+    text-align: center;
+    font-size: 200%;
+}
+.text-justify{
+    text-align: justify;
+    font-family: Segoe UI;
+}
+.text-b{
+    font-weight: bold;
+    font-family: Segoe UI;
+}
+#Detalles{
+    background-color: #D99923;
+    display: flex;
+    flex-direction: row;
+}
+/*Responsive*/
+@media(max-width: 1200px){
+     header{
+        flex-direction: column;
+    }
+    header div{
+        width: 100%;
+    }
+    nav{
+        width: 100%;
+        display: none;
+    }
+    #Detalles{
+        flex-direction: column;
+    }
+    #Detalles img{
+        width: 100%;
+    }
